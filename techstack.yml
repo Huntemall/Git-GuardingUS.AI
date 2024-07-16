@@ -1,0 +1,359 @@
+repo_name: Huntemall/Git-GuardingUS.AI
+report_id: 6d2908e90781a6ff7b8d45793bb7fd4f
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-16T09:57:47+00:00'
+requested_by: Huntemall
+provider: github
+branch: dev
+detected_tools_count: 25
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI
+  detection_source: Repo Metadata
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI/blob/dev/package.json
+  detection_source: package.json
+  last_updated_by: honzaap
+  last_updated_on: 2022-05-14 11:31:30.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI/blob/dev/package.json
+  detection_source: package.json
+  last_updated_by: honzaap
+  last_updated_on: 2022-05-14 11:31:30.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI/blob/dev/.github/workflows/test.yml
+  detection_source: ".github/workflows/test.yml"
+  last_updated_by: eggplants
+  last_updated_on: 2022-07-18 23:06:50.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: eggplants
+  last_updated_on: 2022-07-18 23:06:32.000000000 Z
+- name: Stylelint
+  description: A mighty, modern CSS linter
+  website_url: http://stylelint.io/
+  version: 14.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: eggplants
+  last_updated_on: 2022-07-18 23:06:32.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI/blob/dev/package.json
+  detection_source: package.json
+  last_updated_by: honzaap
+  last_updated_on: 2022-05-14 11:31:30.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI/blob/dev/package.json
+  detection_source: package.json
+  last_updated_by: honzaap
+  last_updated_on: 2022-05-14 11:31:30.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI
+  detection_source: Repo Metadata
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI/blob/dev/package.json
+  detection_source: package.json
+  last_updated_by: eggplants
+  last_updated_on: 2022-07-18 23:06:32.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI/blob/dev/package.json
+  detection_source: package.json
+  last_updated_by: eggplants
+  last_updated_on: 2022-07-18 23:06:32.000000000 Z
+- name: three.js
+  description: A JavaScript 3D library
+  website_url: https://threejs.org/
+  version: 0.140.2
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Game Development
+  image_url: https://img.stackshare.io/service/5883/preview.png
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: eggplants
+  last_updated_on: 2022-07-18 23:06:32.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 2.9.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: eggplants
+  last_updated_on: 2022-07-18 23:06:32.000000000 Z
+  vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 2.9.17
+  - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
+      (//)
+    cve_id: CVE-2023-34092
+    cve_url: https://github.com/advisories/GHSA-353f-5xf4-qw67
+    detected_date: Nov 23
+    severity: high
+    first_patched: 2.9.16
+  - name: Vite's `server.fs.deny` did not deny requests for patterns with directories.
+    cve_id: CVE-2024-31207
+    cve_url: https://github.com/advisories/GHSA-8jhw-289h-jh2g
+    detected_date: Apr 4
+    severity: moderate
+    first_patched: 2.9.18
+  - name: Vitejs Vite before v2.9.13 vulnerable to directory traversal via crafted
+      URL to victim's service
+    cve_id: CVE-2022-35204
+    cve_url: https://github.com/advisories/GHSA-mv48-hcvh-8jj8
+    detected_date: Nov 23
+    severity: moderate
+    first_patched: 2.9.13
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: eggplants
+  last_updated_on: 2022-07-18 23:06:32.000000000 Z
+- name: eslint-config-standard
+  description: JavaScript Standard Style - ESLint Shareable Config
+  package_url: https://www.npmjs.com/eslint-config-standard
+  version: 17.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15872/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: eggplants
+  last_updated_on: 2022-07-18 23:06:32.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: eggplants
+  last_updated_on: 2022-07-18 23:06:32.000000000 Z
+- name: eslint-plugin-promise
+  description: Enforce best practices for JavaScript promises
+  package_url: https://www.npmjs.com/eslint-plugin-promise
+  version: 6.0.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15885/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: eggplants
+  last_updated_on: 2022-07-18 23:06:32.000000000 Z
+- name: file-saver
+  description: An HTML5 saveAs
+  package_url: https://www.npmjs.com/file-saver
+  version: 2.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16795/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: eggplants
+  last_updated_on: 2022-07-19 12:07:34.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 7.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: eggplants
+  last_updated_on: 2022-07-18 23:06:32.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 13.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: eggplants
+  last_updated_on: 2022-07-18 23:06:32.000000000 Z
+- name: npm-run-all
+  description: A CLI tool to run multiple npm-scripts in parallel or sequential
+  package_url: https://www.npmjs.com/npm-run-all
+  version: 4.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: eggplants
+  last_updated_on: 2022-07-18 23:06:32.000000000 Z
+- name: stylelint-config-recommended-scss
+  description: Recommended shareable SCSS config for stylelint
+  package_url: https://www.npmjs.com/stylelint-config-recommended-scss
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18141/default_3e053d4b47b1198323e0d3094fad02237b4d3c17.png
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: eggplants
+  last_updated_on: 2022-07-18 23:06:32.000000000 Z
+- name: stylelint-scss
+  description: A collection of SCSS specific rules for stylelint
+  package_url: https://www.npmjs.com/stylelint-scss
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16626/default_9012166d3e51cea5db6b4e69c80ace1c50b7509d.png
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: eggplants
+  last_updated_on: 2022-07-18 23:06:32.000000000 Z
+- name: three
+  description: JavaScript 3D library
+  package_url: https://www.npmjs.com/three
+  version: 0.140.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16653/default_cc0f40a737548852d2ee666c132c258c9a2c0cad.png
+  detection_source_url: https://github.com/Huntemall/Git-GuardingUS.AI/blob/dev/package-lock.json
+  detection_source: package.json
+  last_updated_by: eggplants
+  last_updated_on: 2022-07-18 23:06:32.000000000 Z
